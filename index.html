@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع علي السادات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبا بك في موقع Ali Elsadat</h1>
+    </header>
+
+    <!-- فيديو القرآن -->
+    <section class="video-section">
+        <h2>استمع إلى القرآن الكريم</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mQlyG9qYpL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- صورة سورة البقرة -->
+    <section class="image-section">
+        <h2>صورة سورة البقرة</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sura_Al_Baqara.jpg" alt="صورة سورة البقرة">
+    </section>
+
+    <!-- زر تسجيل الدخول -->
+    <section class="login-section">
+        <button onclick="showRegistrationSteps()">تسجيل الدخول</button>
+        <div id="registration-steps" style="display:none;">
+            <h3>خطوات التسجيل:</h3>
+            <ol>
+                <li>الخطوة 1: إدخال اسم المستخدم.</li>
+                <li>الخطوة 2: إدخال البريد الإلكتروني.</li>
+                <li>الخطوة 3: اختيار كلمة المرور.</li>
+                <li>الخطوة 4: تأكيد التسجيل.</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لموقع علي السادات.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
